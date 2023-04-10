@@ -5,5 +5,11 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index');
 });
+module.exports = router;
+
+/* GET author page. */
+router.get('/author', function(req, res, next) {
+  res.render('author');
+});
 
 module.exports = router;

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -9,4 +13,35 @@ body {
 a {
   color: #00B7FF;
 }
+nav {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 320%);
+  padding: 20px;
+  max-width: 200px; /* Change this value as per your requirement */
+}
 
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav li a {
+  color: #00B7FF;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
